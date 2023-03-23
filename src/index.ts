@@ -99,6 +99,6 @@ class CardStudent implements IId_Card {
   }
 }
 
-let CardStudent_1 = new CardStudent("npru", "มรน", "13/09/2543", "52656265626565", "ศักรินทร์", "สิงหอยู่", "Software Engineering", "Tech", "644259021", "13/02/2000", "13/02/2577");
+let CardStudent_1 = new CardStudent("Nakhon Pathom Rajabhat University", "มหาวิทยาลัยราชภัฏนครปฐม", "13/09/2543", "52656265626565", "ศักรินทร์", "สิงหอยู่", "วิศวกรรมซอฟต์แวร์", "วิทยาศาสตร์และเทคโนโลยี", "644259021", "13/02/2000", "13/02/2577");
 CardStudent_1.showCard();
 CardStudent_1.calclassYear();
