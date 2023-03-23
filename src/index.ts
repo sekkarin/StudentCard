@@ -80,7 +80,7 @@ class CardStudent implements IId_Card {
       studentId: this.studentId,
       dateOfIssue: this.dateOfIssue,
       dateOfExpir: this.dateOfExpir,
-      year:this.calclassYear()
+      year: this.calclassYear()
 
     }));
     app.listen(PORT, () => {
@@ -95,10 +95,17 @@ class CardStudent implements IId_Card {
     let curr_year = new Date().getFullYear();
     let year = this.studentId.slice(0, 2);
     year = `25${year}`;
-    return `${curr_year - (parseInt(year)-543)}`;
+    return `${curr_year - (parseInt(year) - 543)}`;
   }
 }
 
-let CardStudent_1 = new CardStudent("Nakhon Pathom Rajabhat University", "มหาวิทยาลัยราชภัฏนครปฐม", "13/09/2543", "52656265626565", "ศักรินทร์", "สิงหอยู่", "วิศวกรรมซอฟต์แวร์", "วิทยาศาสตร์และเทคโนโลยี", "644259021", "13/02/2000", "13/02/2577");
+let CardStudent_1 = new CardStudent("Nakhon Pathom Rajabhat University",
+  "มหาวิทยาลัยราชภัฏนครปฐม",
+  "13/09/2543", "52656265626565",
+  "ศักรินทร์", "สิงหอยู่", "วิศวกรรมซอฟต์แวร์",
+  "วิทยาศาสตร์และเทคโนโลยี",
+  "644259021",
+  "13/02/2000",
+  "13/02/2577");
 CardStudent_1.showCard();
 CardStudent_1.calclassYear();
