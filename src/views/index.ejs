@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Node Typescript</title>
+
+  </head>
+  <body>
+  <div class="container">
+    <div class="row g-5 bg-warning mt-2 p-2 rounded" >
+      <div class="col-2 " >
+        <div class="d-flex justify-content-center">
+
+          <img class="rounded-circle mx-1" width="200" height="200" src="https://scontent.fbkk5-1.fna.fbcdn.net/v/t39.30808-6/315594501_2294219314069709_3583128424784275156_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGGXnd160tn4JjnJewbvJwfKqKadtTiBLsqopp21OIEu5f4q2EY9v8shItniBxp-KCbiQow-dedNQs-6X62Gff_&_nc_ohc=-84yL3I2qfAAX_CjgNR&_nc_ht=scontent.fbkk5-1.fna&oh=00_AfAeSeEC9btxBFOQYB7dvuq6T1LVVaJ-fsu0cvC-KZWZzg&oe=6421C064" alt="">
+        </div>
+      </div>
+      <div class="col-8 ">
+        <h4 class="display-4">บัตรประจำนักศึกษา</h4>
+        <p>ชื่อมหาลัยอังกฤษ <%= institutionNameEng %></p>
+        <p>ชื่อมหาลัย <%= institutionNameThai %></p>
+        <p>วันเกิด <%= dateOfBirth %></p>
+        <p>ID Card <%= id %></p>
+        <p>ชื่อ <%= fname %> <%= lname %></p>
+        <p>สาขา <%= branch %></p>
+        <p>คณะ <%= major %></p>
+        <p>รหัสประจำตัวนักศึกษา <%= studentId %></p>
+        <p>วันออกบัตร <%= dateOfIssue %></p>
+        <p>วันหมดอายุบัตร <%= dateOfExpir %></p>
+        <p>ชั้นปีที่ <%= year %></p>
+      </div>
+      <div class="col-2 " >
+        <div class="d-flex justify-content-center">
+  
+          <img width="250" height="250" src="https://www.npru.ac.th/2019/img/Npru-logo.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
